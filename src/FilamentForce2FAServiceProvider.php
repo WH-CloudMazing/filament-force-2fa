@@ -15,7 +15,6 @@ class FilamentForce2FAServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('filament-force-2fa')
-            ->hasConfigFile('filament');
+            ->name('filament-force-2fa');
     }
 }
