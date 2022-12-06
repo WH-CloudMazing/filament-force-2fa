@@ -2,9 +2,9 @@
 
 namespace CloudMazing\FilamentForce2FA\Tests;
 
+use CloudMazing\FilamentForce2FA\FilamentForce2FAServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use CloudMazing\FilamentForce2FA\FilamentForce2FAServiceProvider;
 
 class TestCase extends Orchestra
 {

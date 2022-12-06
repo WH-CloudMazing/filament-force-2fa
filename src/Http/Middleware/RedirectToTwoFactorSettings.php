@@ -21,8 +21,8 @@ class RedirectToTwoFactorSettings
         $skipRoutes = [TwoFactor::getRouteName(), 'logout'];
 
         $user = Auth::check() ? Auth::user() : null;
-        $twoFactorIsDisabled = !app(FilamentTwoFactor::class)->hasTwoFactorEnabled($request->user());
-        $currentRouteIsNotTwoFactorConfigRoute = !$request->routeIs($skipRoutes);
+        $twoFactorIsDisabled = ! app(FilamentTwoFactor::class)->hasTwoFactorEnabled($request->user());
+        $currentRouteIsNotTwoFactorConfigRoute = ! $request->routeIs($skipRoutes);
 
         // User should be redirected to 2FA config if;
         // - user is logged in
