@@ -1,24 +1,15 @@
-# :package_description
+# Force 2FA using a middleware
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/cloudmazing/filament-force-2fa.svg?style=flat-square)](https://packagist.org/packages/cloudmazing/filament-force-2fa)
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/cloudmazing/filament-force-2fa/run-tests?label=tests)](https://github.com/cloudmazing/filament-force-2fa/actions?query=workflow%3Arun-tests+branch%3Amain)
 [![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/cloudmazing/filament-force-2fa/Fix%20PHP%20code%20style%20issues?label=code%20style)](https://github.com/cloudmazing/filament-force-2fa/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/cloudmazing/filament-force-2fa.svg?style=flat-square)](https://packagist.org/packages/cloudmazing/filament-force-2fa)
-<!--delete-->
----
-This repo can be used to scaffold a Laravel package. Follow these steps to get started:
 
-1. Press the "Use this template" button at the top of this repo to create a new repo with the contents of this skeleton.
-2. Run "php ./configure.php" to run a script that will replace all placeholders throughout all the files.
-3. Have fun creating your package.
-4. If you need help creating a package, consider picking up our <a href="https://laravelpackage.training">Laravel Package Training</a> video course.
----
-<!--/delete-->
 This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
 
 ## Support us
 
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/:package_name.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/:package_name)
+[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/filament-force-2fa.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/filament-force-2fa)
 
 We invest a lot of resources into creating [best in class open source packages](https://spatie.be/open-source). You can support us by [buying one of our paid products](https://spatie.be/open-source/support-us).
 
@@ -61,8 +52,8 @@ php artisan vendor:publish --tag="filament-force-2fa-views"
 ## Usage
 
 ```php
-$variable = new CloudMazing\FilamentForce2FA();
-echo $variable->echoPhrase('Hello, CloudMazing!');
+$fileamentForce2FA = new CloudMazing\FilamentForce2FA();
+echo $fileamentForce2FA->echoPhrase('Hello, CloudMazing!');
 ```
 
 ## Testing
@@ -85,7 +76,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [:author_name](https://github.com/:author_username)
+- [CloudMazing](https://github.com/WH-CloudMazing)
 - [All Contributors](../../contributors)
 
 ## License
