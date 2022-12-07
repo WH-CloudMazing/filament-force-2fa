@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Auth;
 use Webbingbrasil\FilamentTwoFactor\FilamentTwoFactor;
 use Webbingbrasil\FilamentTwoFactor\Pages\TwoFactor;
 
-class RedirectToTwoFactorSettings
+class Require2FA
 {
     public function handle(Request $request, Closure $next)
     {
