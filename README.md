@@ -1,8 +1,8 @@
 # Force 2FA using a middleware
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/cloudmazing/filament-force-2fa.svg?style=flat-square)](https://packagist.org/packages/cloudmazing/filament-force-2fa)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/cloudmazing/filament-force-2fa/run-tests?label=tests)](https://github.com/cloudmazing/filament-force-2fa/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/cloudmazing/filament-force-2fa/Fix%20PHP%20code%20style%20issues?label=code%20style)](https://github.com/cloudmazing/filament-force-2fa/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/cloudmazing/filament-force-2fa/run-tests?label=tests)](https://github.com/cloudmazing/filament-force-2fa/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/cloudmazing/filament-force-2fa/Fix%20PHP%20code%20style%20issues?label=code%20style)](https://github.com/cloudmazing/filament-force-2fa/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/cloudmazing/filament-force-2fa.svg?style=flat-square)](https://packagist.org/packages/cloudmazing/filament-force-2fa)
 
 # Usage
